@@ -85,9 +85,9 @@ git push origin feature/short-description
 
 ### Pull Request Format
 
-When opening a PR, use the following template:
+When opening a PR, use the  template in 
+[PR TEMPLATE]{task-manager/PULL_REQUEST_TEMPLATE.md}
 
-```text
 ## Description
 
 Briefly describe your change and what it addresses.
