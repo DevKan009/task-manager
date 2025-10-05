@@ -1,95 +1,100 @@
+# Contributing to Task Manager
+
 Thank you for considering a contribution to Task Manager—an open-source React+Redux app for task management! 📝 Your improvements, bug fixes, and new features help make this project better for everyone.
-##How to Contribute
-1. Getting Started
 
-    Fork the repository to your own GitHub account.
+## How to Contribute
 
-    Clone your fork locally:
+### 1. Getting Started
 
-    bash
-    git clone https://github.com/your-username/task-manager.git
-    cd task-manager
+- Fork the repository to your own GitHub account.
+- Clone your fork locally:
 
-2. Development Setup
+```bash
+# Clone the repository
+git clone https://github.com/your-username/task-manager.git
+cd task-manager
+```
 
-    Ensure you have Node.js and npm (or yarn) installed.
+### 2. Development Setup
 
-    Install dependencies:
+- Ensure you have Node.js and npm (or yarn) installed.
+- Install dependencies:
 
-bash
+```bash
 npm install
-#### or
+# or
 yarn install
+```
 
-Start the development server:
+- Start the development server:
 
-    bash
-    npm start
-    # or
-    yarn start
+```bash
+npm start
+# or
+yarn start
+```
 
-    You should see the app running at http://localhost:3000.
+You should see the app running at [http://localhost:3000](http://localhost:3000).
 
-Types of Contributions
+## Types of Contributions
 
 You can:
 
-    Add new features (e.g., sub-tasks, reminders, user accounts)
+- Add new features (e.g., sub-tasks, reminders, user accounts).
+- Fix bugs (see the Issues page).
+- Improve UI/UX, accessibility, or performance.
+- Update documentation (README, FAQ, guides).
+- Refactor existing code for clarity or optimization.
 
-    Fix bugs (see Issues page)
+## Creating Your Pull Request (PR)
 
-    Improve UI/UX, accessibility, or performance
+### 1. Branching
 
-    Update documentation (README, FAQ, guides)
+- Create a new branch for your work:
 
-    Refactor existing code for clarity or optimization
+```bash
+# Create a new branch
+git checkout -b feature/short-description
+```
 
-Creating Your Pull Request (PR)
-1. Branching
+Replace `feature/short-description` with a name describing the change.
 
-    Create a new branch for your work:
+### 2. Making Changes
 
-    bash
-    git checkout -b feature/short-description
+- Keep your changes focused—one feature or fix per PR.
+- Add or update documentation as needed.
+- If your change impacts the UI, take a screenshot and include it in the PR.
+- Run tests and ensure everything passes.
 
-    Replace feature/short-description with one describing the change.
+### 3. Committing
 
-2. Making Changes
+- Use clear, conventional commit messages:
 
-    Keep your changes focused—one feature or fix per PR.
-
-    Add or update documentation as needed.
-
-    If your change impacts the UI, take a screenshot and tag @DevKan009 in the PR for review.
-
-    Run tests and make sure everything passes.
-
-3. Committing
-
-    Use clear, conventional commit messages:
-
-text
+```text
 feat: add drag-and-drop for tasks
 fix: resolve sidebar collapse bug
 docs: update contributing guide
+```
 
-Push to your fork:
+- Push to your fork:
 
-    bash
-    git push origin feature/short-description
+```bash
+# Push changes
+git push origin feature/short-description
+```
 
-Pull Request Format (Template)
+### Pull Request Format
 
-# When opening a PR, copy and fill the template below:
+When opening a PR, use the following template:
 
-text
+```text
 ## Description
 
 Briefly describe your change and what it addresses.
 
 ## Related Issue
 
-Closes #<issue-number> (if applicable)
+Closes #<issue-number> (if applicable).
 
 ## Type of Change
 - [ ] New feature
@@ -100,48 +105,42 @@ Closes #<issue-number> (if applicable)
 
 ## How Has This Been Tested?
 
-Explain manual or automated tests performed.  
-If UI changes, attach a screenshot. 
+Explain manual or automated tests performed. If UI changes, attach a screenshot.
 
 ## Screenshots 📸
 
-<attach here if applicable, keep minimal and relevant>
+<Attach here if applicable, keep minimal and relevant>
 
 ## Checklist
-- [ ] My code follows project coding style
-- [ ] No new errors/warnings
-- [ ] Added/updated documentation
-- [ ] Screenshots for major UI changes (tagged @DevKan009)
-- [ ] All acceptance criteria from linked issue met
+- [ ] My code follows project coding style.
+- [ ] No new errors/warnings.
+- [ ] Added/updated documentation.
+- [ ] Screenshots for major UI changes.
+- [ ] All acceptance criteria from linked issue met.
 
 ## Additional Notes
 
 (Optional) Any commentary for reviewers.
+```
 
-Code Style & Standards
+## Code Style & Standards
 
-    Use ESLint for code quality (npm run lint).
+- Use ESLint for code quality (`npm run lint`).
+- Keep code modular and readable.
+- Prefer functional components and hooks for React logic.
+- For state management, use Redux patterns consistently.
 
-    Keep code modular and readable.
+## Issues and Feedback
 
-    Prefer functional components and hooks for React logic.
+- Browse or open issues on the Issues page.
+- If reporting a bug, include reproduction steps, screenshots (minimal), and environment details.
 
-    For state management, use Redux patterns consistently.
+## Community Expectations
 
-Issues and Feedback
+- Be respectful and constructive.
+- Follow the Code of Conduct.
+- Strive for clarity and friendly collaboration in all conversations and reviews.
 
-    Browse or open issues at Issues.
-
-    If reporting a bug: include reproduction steps, screenshots (minimal), and environment details.
-
-Community Expectations
-
-    Be respectful and constructive.
-
-    Follow the Code of Conduct if available.
-
-    All conversations and reviews strive for clarity and friendly collaboration.
-
-License
+## License
 
 This project is licensed under the MIT License.
